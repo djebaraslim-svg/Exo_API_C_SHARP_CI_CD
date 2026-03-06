@@ -25,6 +25,9 @@ jobs:
       
       - name: Build du projet
         run: dotnet build 
+      
+      - name: Restore
+        run: dotnet restore
 
       - name: Lancer les tests unitaires
         run: dotnet test
