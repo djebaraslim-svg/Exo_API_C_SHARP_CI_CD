@@ -6,7 +6,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build api:
+  buildApi:
     runs-on: ubuntu-latest
     steps:
       - name: Verification des fichiers du runner (linux)

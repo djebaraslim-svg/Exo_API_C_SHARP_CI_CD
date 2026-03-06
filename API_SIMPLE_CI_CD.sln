@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 18
-VisualStudioVersion = 18.3.11505.172 d18.3
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_SIMPLE_CI_CD", "API_SIMPLE_CI_CD\API_SIMPLE_CI_CD.csproj", "{CDA24393-4D5C-4CCB-B323-1CB7E5518967}"
 EndProject
@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitaire", "TestUnitair
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{11AEC246-0F5E-4538-A74C-7452B89AD09C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "worflows", "worflows", "{C70090FE-1430-4247-8B5D-19C130F25E46}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{C70090FE-1430-4247-8B5D-19C130F25E46}"
 	ProjectSection(SolutionItems) = preProject
-		test_built.yaml = test_built.yaml
+		.github\workflows\test_built.yaml = .github\workflows\test_built.yaml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{B8C20CE5-C652-492A-BC4B-E47ACC353033}"
