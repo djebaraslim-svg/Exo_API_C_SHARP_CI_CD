@@ -23,14 +23,15 @@ jobs:
         with:
           dotnet-version: 10.0.x
       
-      - name: Build du projet
-        run: dotnet build 
-      
       - name: Restore
         run: dotnet restore
 
+      - name: Build du projet
+        run: dotnet build 
+      
       - name: Lancer les tests unitaires
         run: dotnet test
+
 
       - name: Message succès
         run: echo "Pipeline réussi"
